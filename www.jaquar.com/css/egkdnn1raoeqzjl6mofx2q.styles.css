@@ -22547,7 +22547,7 @@ select {
 }
 
 .site-header .logo img {
-    width: 180px;
+    width: 60px;
 }
 
 .site-header .rightbar ul {
@@ -25007,6 +25007,10 @@ ul.product-spec-group-area li label {
     color: #333;
     line-height: 1.2;
     margin: 0;
+}
+.imgsize {
+    width: 10px;
+    height: 650px;
 }
 
 .tagwrap .tags ul li a:hover {
@@ -29107,7 +29111,7 @@ ul.dbselectlist>li {
 
 @media (max-width:479px) {
     .site-header .logo img {
-        max-width: 120px;
+        max-width: 40px;
     }
     /*ul.hero-slide li.tile {height: 260px;}*/
     ul.orient-icon li {
@@ -29236,7 +29240,7 @@ ul.dbselectlist>li {
         width: 15px;
     }
     .site-header .logo img {
-        max-width: 110px;
+        max-width: 20px;
     }
     .site-header .logo img {
         padding-right: 0;
@@ -29477,7 +29481,7 @@ ul.dbselectlist>li {
 }
 
 .jaquar_care {
-    background: url(/images/uploaded/jaquar-care.jpg) no-repeat center center / cover;
+    background: url(../images/uploaded/slide3\(chef\).jpeg) no-repeat center center / cover;
     color: #fff;
 }
 
