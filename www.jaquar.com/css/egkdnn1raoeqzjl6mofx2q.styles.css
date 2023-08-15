@@ -604,7 +604,37 @@ button.ui-button::-moz-focus-inner {
     left: 2px;
     right: auto
 }
+.download-btn{
+    background-color: DodgerBlue;
+    color: white;
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius:5px;
+}
 
+.download-btn:hover {
+    background-color: RoyalBlue;
+  }
+.pd_download {
+    text-align: center;
+    padding: 100px;
+    background-color: gray;
+    margin: 0 auto;
+    display: block;
+}
+.pd_download h2 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+}
+.whatsapp_contact {
+    text-align: center;
+    background-color: rgb(15, 145, 15);
+}
+.whatsapp_contact a {
+    color: white;
+}
 .ui-datepicker-rtl .ui-datepicker-prev:hover {
     right: 1px;
     left: auto
@@ -747,7 +777,12 @@ button.ui-button::-moz-focus-inner {
     left: 0;
     top: 0
 }
-
+* {
+    font-family: 'Poppins', sans-serif;
+}
+h2 {
+    font-family: 'Poppins', sans-serif;
+}
 .ui-draggable .ui-dialog-titlebar {
     cursor: move
 }
@@ -10297,7 +10332,7 @@ label+* {
 *,
 ::after,
 ::before {
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 html {
@@ -22671,8 +22706,7 @@ select {
 
 .menuwrap {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .menu-thumb {
@@ -22689,7 +22723,6 @@ select {
     width: 68%;
     font-size: 21px;
     font-weight: 300;
-    padding-left: 50px;
 }
 
 .menu-links>ul>li {
